@@ -28,7 +28,8 @@
       "arrow-parens": false,
       "max-line-length": false,
       "align": false,
-      "max-classes-per-file": false
+      "max-classes-per-file": false,
+      "no-console": false
     },
     "rulesDirectory": []
   }
