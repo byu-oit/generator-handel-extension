@@ -1,6 +1,6 @@
 {
     "name": "generator-handel-extension",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "description": "Yeoman generator for creating a Handel extension",
     "files": [
         "generators"
