@@ -15,8 +15,11 @@ export class <%= capitalizedServiceName %>Service implements ServiceDeployer {
     public readonly consumedDeployOutputTypes = [];
     public readonly producedDeployOutputTypes = [];
 
+    // Set this to an instance of ServiceEventType if your service provides any AWS event types (i.e. SNS, Lambda, etc.)
+    public readonly providedEventType = null;
+
     // Set this to have zero or more services that this can produce events to
-    public readonly producedEventsSupportedServices = [];
+    public readonly producedEventsSupportedTypes = [];
 
     // Set this to false if the resources you're deploying don't support tagging
     public readonly supportsTagging = true;
