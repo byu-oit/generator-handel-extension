@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "aws-sdk": "^2.266.1",
-    "handel-extension-api": "^0.27.0",
-    "handel-extension-support": "^0.27.0"
+    "handel-extension-api": "^0.33.2",
+    "handel-extension-support": "^0.33.2"
   },
   "devDependencies": {
     "@types/chai": "^4.1.2",

@@ -29,7 +29,7 @@ export class <%= capitalizedServiceName %>Service implements ServiceDeployer {
         return [];
     }
 
-    // Implement the preDeploy phase if your service uses security groups
+    // Implement the preDeploy and getPreDeployContext phases if your service uses security groups
 
     // Implement the bind phase if your service will add ingress rules to its security group from other services
 
